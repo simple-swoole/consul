@@ -1,0 +1,31 @@
+{
+    "name": "simps/consul",
+    "description": "A Consul Client.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "consul",
+        "consul-client"
+    ],
+    "require": {
+        "php": ">=7.2",
+        "hyperf/guzzle": "~2.1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.9"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Simps\\Consul\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix $1"
+    }
+}
